@@ -1,8 +1,15 @@
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/3.7.2/firebase-messaging.js');
+importScripts('https://www.gstatic.com/firebasejs/5.8.6/firebase.js');
+
 
 firebase.initializeApp({
-  messagingSenderId: '895966208818'
+    apiKey: "AIzaSyCs4TkADK5ts5GdzZqHNDIzeZB1PGlO2ag",
+    authDomain: "testpush-573c8.firebaseapp.com",
+    databaseURL: "https://testpush-573c8.firebaseio.com",
+    projectId: "testpush-573c8",
+    storageBucket: "testpush-573c8.appspot.com",
+    messagingSenderId: "895966208818"
 });
 
 const messaging = firebase.messaging();
